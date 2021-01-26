@@ -36,10 +36,7 @@ const Profile = () => {
             <div className="profile__container3">
                 <div className="profile__container3__pic"></div>
                 <div className="profile__container3__info">Name</div>
-                <div className="profile__container3__btn">
                     <button>Click me</button>
-                </div>
-
             </div>
         </div>
     )

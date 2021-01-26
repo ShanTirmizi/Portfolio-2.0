@@ -3,27 +3,33 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
     width: 100vw;
-    background-color: yellow;
-    margin: 15rem;
+    /* background-color: yellow; */
+    margin: 8rem 10rem;
 }
 
 .profile__container1 {
-    /* display: grid;
-    grid-template-rows: 3fr 1fr 0.8fr; */
-    background-color: pink;
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr;
+    grid-gap: 3rem;
+    /* background-color: pink; */
     border-radius: 1rem;
+    
 }
 
 .profile__container1__pic {
     /* height: 100px; */
-    background-color: brown;
+    /* background-color: brown; */
     border-radius: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
 
 .profile__container1__name {
     /* height: 100px; */
-    background-color: white;
+    /* background-color: white; */
     border-radius: 0.5rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
 
 .profile__container1__link {
@@ -34,50 +40,64 @@
 }
 
 .profile__container1__link a {
-    background-color: black;
-    padding: 0.4rem;
+    /* background-color: black; */
+    /* padding: 0.4rem; */
     /* height: 1rem; */
-    border-radius: 100%;
+    /* border-radius: 100%; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
 
 .profile__container2 {
     display: grid;
-    background-color: blue;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: 3rem;    
+    /* background-color: blue; */
     border-radius: 1rem;
 }
 
 .profile__container2__bio {
-    height: 4rem;
-    background-color: brown;
+    /* height: 4rem; */
+    /* background-color: brown; */
     border-radius: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .profile__container2__skills {
-    height: 5rem;
-    background-color: cyan;
+    /* height: 5rem; */
+    /* background-color: cyan; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 1rem;
 }
 
 .profile__container3 {
-    background-color: brown;
+    display: grid;
+    grid-template-rows: 3fr 1fr 0.5fr;
+    grid-gap: 3rem;  
+    /* background-color: brown; */
     border-radius: 1rem;
 }
 
 .profile__container3__pic {
-    background-color: pink;
-    height: 5rem;
+    /* background-color: pink; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* height: 5rem; */
     border-radius: 1rem;
 }
 
 .profile__container3__info {
-    background-color: blue;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* background-color: blue; */
     border-radius: 0.5rem;
 }
 
-.profile__container3__btn button {
+.profile__container3 button {
     width: 100%;
     border-radius: 1rem;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     border: none;
     outline: none;
+    /* background-color: white; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
