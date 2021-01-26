@@ -1,0 +1,83 @@
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    width: 100vw;
+    background-color: yellow;
+    margin: 15rem;
+}
+
+.profile__container1 {
+    /* display: grid;
+    grid-template-rows: 3fr 1fr 0.8fr; */
+    background-color: pink;
+    border-radius: 1rem;
+}
+
+.profile__container1__pic {
+    /* height: 100px; */
+    background-color: brown;
+    border-radius: 1rem;
+}
+
+.profile__container1__name {
+    /* height: 100px; */
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.profile__container1__link {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: space-between;
+    /* justify-items: center; */
+}
+
+.profile__container1__link a {
+    background-color: black;
+    padding: 0.4rem;
+    /* height: 1rem; */
+    border-radius: 100%;
+}
+
+.profile__container2 {
+    display: grid;
+    background-color: blue;
+    border-radius: 1rem;
+}
+
+.profile__container2__bio {
+    height: 4rem;
+    background-color: brown;
+    border-radius: 1rem;
+}
+
+.profile__container2__skills {
+    height: 5rem;
+    background-color: cyan;
+    border-radius: 1rem;
+}
+
+.profile__container3 {
+    background-color: brown;
+    border-radius: 1rem;
+}
+
+.profile__container3__pic {
+    background-color: pink;
+    height: 5rem;
+    border-radius: 1rem;
+}
+
+.profile__container3__info {
+    background-color: blue;
+    border-radius: 0.5rem;
+}
+
+.profile__container3__btn button {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 0;
+    border: none;
+    outline: none;
+}
