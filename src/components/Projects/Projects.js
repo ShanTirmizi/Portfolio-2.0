@@ -13,7 +13,7 @@ const Projects = () => {
                     </div>
                         {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
                     <div className="projects__container__name">
-                        <h2>Projects 1</h2>
+                        <h2>Covid Tracker</h2>
                     </div>
                     <div className="projects__container__info">
                         <p>
@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
                         {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
                     <div className="projects__container__name">
-                        <h2>Projects 1</h2>
+                        <h2>Crypto Tracker</h2>
                     </div>
                     <div className="projects__container__info">
                         <p>
@@ -62,7 +62,7 @@ const Projects = () => {
                         <video src='Github-User-Search.mp4' autoplay="true" loop />
                     </div>
                     <div className="projects__container__name">
-                        <h2>Projects 1</h2>
+                        <h2>GitHub User Search</h2>
                     </div>
                     <div className="projects__container__info">
                         <p>
