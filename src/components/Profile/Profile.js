@@ -8,7 +8,7 @@ import { FaReact } from "react-icons/fa";
 
 const Profile = () => {
     return (
-        <div className='profile'>
+        <div className='profile' id='NavBio'>
             <div className="profile__container1">
                 <div className="profile__container1__pic">
                     <img src='https://img.pngio.com/profile-icon-png-image-free-download-searchpngcom-profile-icon-png-673_673.png' />
@@ -24,6 +24,11 @@ const Profile = () => {
                         <GrLinkedin className="profile__container1__icon" />
                     </a>
                     <a href="https://www.linkedin.com/in/shan-tirmizi-7b3114159/" target="_blank">
+                        {/* <div className='profile__container1__link__info'>  
+                            <h3>Contact info</h3>
+                            <p>Phone: 07481444772</p>
+                            <p>Email: Tirmizishahnawaz@gmail.com</p>
+                        </div> */}
                         <MdContactMail className="profile__container1__icon" />
                     </a>
                 </div>
