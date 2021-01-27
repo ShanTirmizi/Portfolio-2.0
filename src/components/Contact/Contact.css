@@ -1,0 +1,79 @@
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__title__name {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    /* background-color: var(--color-7); */
+    margin: 1rem 0;
+    outline: none;
+    width: 25vw;
+    height: 3rem;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 1rem;
+    /* height: 100px; */
+    background-color: var(--color-7);
+    color: var(--color-6);
+    /* color:  !important ; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+textarea {
+    margin: 1rem 0 10rem;
+    outline: none;
+    width: 25vw;
+    height: 10rem;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    /* height: 100px; */
+    color: var(--color-6);
+
+    background-color: var(--color-7);
+    /* color:  !important ; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+h2 {
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: var(--color-6) !important;
+    /* opacity: 1; */
+}
+
+.contact__title__email {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__title__message {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__title button {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    background-color: var(--color-7);
+    color: var(--color-6);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 25%;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}

@@ -3,6 +3,7 @@ import './Profile.css';
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { MdContactMail } from "react-icons/md";
+import { FaReact } from "react-icons/fa";
 
 
 const Profile = () => {
@@ -10,7 +11,7 @@ const Profile = () => {
         <div className='profile'>
             <div className="profile__container1">
                 <div className="profile__container1__pic">
-                    <img />
+                    <img src='https://img.pngio.com/profile-icon-png-image-free-download-searchpngcom-profile-icon-png-673_673.png' />
                 </div>
                 <div className="profile__container1__name">
                     <h2>Shan Tirmizi</h2>
@@ -29,13 +30,48 @@ const Profile = () => {
             </div>
             <div className="profile__container2">
                 <div className="profile__container2__bio">
+                    <h3>Bio</h3>
+                    <p>
+                    Ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    </p>
                 </div>
                 <div className="profile__container2__skills">
+                    <h3>Skills</h3>
+                    <div className="profile__container2__skills__icons">
+                        <div>
+                            <p>React</p>
+                            <FaReact  />
+                        </div>
+                        <div>
+                            <p>React</p>
+                            <FaReact />
+                        </div>
+                        <div>
+                            <p>React</p>
+                            <FaReact />
+                        </div>
+                        <div>
+                            <p>React</p>
+                            <FaReact />
+                        </div>
+                        <div>
+                            <p>React</p>
+                            <FaReact />
+                        </div>
+                        <div>
+                            <p>React</p>
+                            <FaReact />
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="profile__container3">
-                <div className="profile__container3__pic"></div>
-                <div className="profile__container3__info">Name</div>
+                <img src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' className="profile__container3__pic" />
+                <div className="profile__container3__info">
+                    <h3>The Wolf of Wall Street</h3>
+                    <p>8.5 IMDB</p>
+                </div>
                     <button>Click me</button>
             </div>
         </div>
