@@ -34,6 +34,7 @@
     width: 100%;
     object-fit: cover;
     /* filter: brightness(80%) */
+    outline: none;
 }
 
 .projects__container__name {
