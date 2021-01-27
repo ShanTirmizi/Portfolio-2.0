@@ -3,7 +3,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div className='projects' id='NavProjects'>
             <div className="projects__container">
                 <div className='projects__container__pic'></div>    
                     {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
