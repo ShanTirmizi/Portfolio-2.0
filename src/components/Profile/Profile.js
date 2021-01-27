@@ -123,9 +123,9 @@ const Profile = () => {
                 </div>
             </div>
             <div className="profile__container3">
-                <img src={movie.image} alt='Movie Poster' className='profile__container3__pic' />
+                <img src={movie.image || 'images/netlfix.jpg'} alt='Movie Poster' className='profile__container3__pic' />
                 <div className="profile__container3__info">
-                    <h3>{movie.name}</h3>
+                    <h3>{movie.name || 'Need something to watch?'}</h3>
                     <p>{movie.rating} IMDB</p>
                 </div>
                 <button onClick={randomMovie}>Click for Netflix Rec</button>

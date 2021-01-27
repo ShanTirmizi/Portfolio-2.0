@@ -28,9 +28,13 @@ button {
   --color-8: #E50914;
   --color-9: #162447;
   --color-10: #056674;
-
-
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-6);
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }
