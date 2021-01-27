@@ -9,7 +9,7 @@ const Projects = () => {
             <Bounce left>
                 <div className="projects__container">
                     <div className='projects__container__pic'>
-                        <video src='Covid-Tracker.mp4' autoplay="true" loop />
+                        <video src='Covid-Tracker.mp4' autoplay="true" loop controls/>
                     </div>
                         {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
                     <div className="projects__container__name">
@@ -33,7 +33,7 @@ const Projects = () => {
             <Bounce top>
                 <div className="projects__container">
                     <div className='projects__container__pic'>
-                        <video src='Crypto-Tracker-Video.mp4' autoplay="true" loop />
+                        <video src='Crypto-Tracker-Video.mp4' autoplay="true" loop controls />
                     </div>
                         {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
                     <div className="projects__container__name">
@@ -59,7 +59,7 @@ const Projects = () => {
                 <div className="projects__container">
                     <div className="projects__container__pic">
                     {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
-                        <video src='Github-User-Search.mp4' autoplay="true" loop />
+                        <video src='Github-User-Search.mp4' autoplay="true" loop controls/>
                     </div>
                     <div className="projects__container__name">
                         <h2>GitHub User Search</h2>
