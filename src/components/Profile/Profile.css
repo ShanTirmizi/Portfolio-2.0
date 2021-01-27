@@ -60,6 +60,15 @@
     margin-top: 0;
 }
 
+.profile__container1__email {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.profile__container1__email p {
+    margin-right: 1rem;
+}
+
 .profile__container1__link {
     display: flex;
     /* grid-template-columns: 1fr 1fr 1fr; */
@@ -95,6 +104,21 @@
 .profile__container1__link__cancel {
     display: flex;
     justify-content: space-between;
+}
+
+.profile__container1__link__clip {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile__container1__link__clip p {
+    margin-right: 0.4rem;
+    
+}
+
+.profile__container1__link__msg {
+    color: var(--color-1);
 }
 
 .profile__container1__link a {

@@ -1,15 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Profile.css';
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { MdContactMail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
+import { MdContentCopy } from "react-icons/md";
+
 
 
 
 const Profile = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [alert, setAlert] = useState(false)
+
+
+    useEffect(() => {
+        const timeout = setTimeout(() => {
+            setAlert(false)
+        }, 2000)
+        return () => clearTimeout(timeout)
+    }, [alert])
     return (
         <div className='profile' id='NavBio'>
             <div className="profile__container1">
@@ -18,7 +29,15 @@ const Profile = () => {
                 </div>
                 <div className="profile__container1__name">
                     <h2>Shan Tirmizi</h2>
-                    <p>Email: tirmizishahnawaz@gmail.com</p>
+                    <div className="profile__container1__email"
+                                    onClick={() => {
+                                    setAlert(true)
+                                    navigator.clipboard.writeText('tirmizishahnawaz@gmail.com')
+                                }}>
+                        <p>Email: tirmizishahnawaz@gmail.com</p>
+                        <MdContentCopy />
+                    </div>
+                    
                 </div>
                 <div className="profile__container1__link">
                     <a href="https://github.com/ShanTirmizi" target="_blank">
@@ -36,7 +55,21 @@ const Profile = () => {
                                 <AiOutlineClose onClick={() => setIsOpen(false)} />
                             </div>
                             <p>Phone: 07481444772</p>
-                            <p>Email: Tirmizishahnawaz@gmail.com</p>
+                            <div className='profile__container1__link__clip' 
+                                onClick={() => {
+                                    setAlert(true)
+                                    navigator.clipboard.writeText('tirmizishahnawaz@gmail.com')
+                                }}>
+                                <p>Email: Tirmizishahnawaz@gmail.com</p>
+                                <MdContentCopy />
+                            </div>
+                            {
+                                alert &&
+                                <p className='profile__container1__link__msg'>Copied to the clipboard</p>
+                            }
+                            
+
+  
                             <p>Location: London</p>
                         </div>
                         }
