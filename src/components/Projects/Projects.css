@@ -58,6 +58,8 @@
 }
 
 .projects__container__links p {
+    cursor: pointer;
+    font-weight: bold;
     padding: 1rem;
     border-radius: 1rem;
     background-color: var(--color-7);
