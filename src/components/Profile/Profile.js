@@ -34,7 +34,7 @@ const Profile = () => {
         <div className='profile' id='NavBio'>
             <div className="profile__container1">
                 <div className="profile__container1__pic">
-                    <img src='https://img.pngio.com/profile-icon-png-image-free-download-searchpngcom-profile-icon-png-673_673.png' />
+                    <img src='images/Profile.jpeg' />
                 </div>
                 <div className="profile__container1__name">
                     <h2>Shan Tirmizi</h2>
