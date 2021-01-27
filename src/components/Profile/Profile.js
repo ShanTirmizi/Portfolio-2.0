@@ -6,7 +6,7 @@ import { MdContactMail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdContentCopy } from "react-icons/md";
-import {data} from './data'
+import {data} from './data';
 
 
 
