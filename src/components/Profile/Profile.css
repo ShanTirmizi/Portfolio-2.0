@@ -138,6 +138,10 @@
     color: var(--color-7);
 }
 
+.profile__container1__icon__mail {
+    cursor: pointer;
+}
+
 .profile__container2 {
     display: grid;
     grid-template-rows: 1.5fr 1fr;
@@ -218,7 +222,6 @@
     height: 18rem;
     object-fit: cover;
     filter: brightness(80%)
-
 }
 
 .profile__container3__info {
@@ -254,6 +257,6 @@
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     background-color: var(--color-7);
     color: var(--color-6);
-    font-size: 1.8rem;
+    font-size: 1rem;
     font-weight: bold;
 }

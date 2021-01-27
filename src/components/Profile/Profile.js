@@ -6,6 +6,7 @@ import { MdContactMail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdContentCopy } from "react-icons/md";
+import {data} from './data'
 
 
 
@@ -13,7 +14,15 @@ import { MdContentCopy } from "react-icons/md";
 const Profile = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [alert, setAlert] = useState(false)
+    const [movie, setMovie] = useState([])
 
+    // let items = ['Yes', 'No', 'Maybe'];
+
+    const randomMovie = () => {
+        let item = data[Math.floor(Math.random() * data.length)];
+        setMovie(item)
+        // console.log(item);
+    }
 
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -46,7 +55,7 @@ const Profile = () => {
                     <a href="https://www.linkedin.com/in/shan-tirmizi-7b3114159/" target="_blank">
                         <GrLinkedin className="profile__container1__icon" />
                     </a>
-                    <div >
+                    <div className="profile__container1__icon__mail" >
                         {
                         isOpen &&
                         <div className='profile__container1__link__info'>
@@ -67,9 +76,6 @@ const Profile = () => {
                                 alert &&
                                 <p className='profile__container1__link__msg'>Copied to the clipboard</p>
                             }
-                            
-
-  
                             <p>Location: London</p>
                         </div>
                         }
@@ -117,12 +123,12 @@ const Profile = () => {
                 </div>
             </div>
             <div className="profile__container3">
-                <img src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' className="profile__container3__pic" />
+                <img src={movie.image} alt='Movie Poster' className='profile__container3__pic' />
                 <div className="profile__container3__info">
-                    <h3>The Wolf of Wall Street</h3>
-                    <p>8.5 IMDB</p>
+                    <h3>{movie.name}</h3>
+                    <p>{movie.rating} IMDB</p>
                 </div>
-                    <button>Click me</button>
+                <button onClick={randomMovie}>Click for Netflix Rec</button>
             </div>
         </div>
     )
