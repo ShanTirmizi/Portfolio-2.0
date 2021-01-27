@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Profile.css';
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { MdContactMail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
+
 
 
 const Profile = () => {
+    const [isOpen, setIsOpen] = useState(false)
     return (
         <div className='profile' id='NavBio'>
             <div className="profile__container1">
@@ -15,6 +18,7 @@ const Profile = () => {
                 </div>
                 <div className="profile__container1__name">
                     <h2>Shan Tirmizi</h2>
+                    <p>Email: tirmizishahnawaz@gmail.com</p>
                 </div>
                 <div className="profile__container1__link">
                     <a href="https://github.com/ShanTirmizi" target="_blank">
@@ -23,14 +27,22 @@ const Profile = () => {
                     <a href="https://www.linkedin.com/in/shan-tirmizi-7b3114159/" target="_blank">
                         <GrLinkedin className="profile__container1__icon" />
                     </a>
-                    <a href="https://www.linkedin.com/in/shan-tirmizi-7b3114159/" target="_blank">
-                        {/* <div className='profile__container1__link__info'>  
-                            <h3>Contact info</h3>
+                    <div >
+                        {
+                        isOpen &&
+                        <div className='profile__container1__link__info'>
+                            <div className='profile__container1__link__cancel'>
+                                <h3>Contact info</h3>
+                                <AiOutlineClose onClick={() => setIsOpen(false)} />
+                            </div>
                             <p>Phone: 07481444772</p>
                             <p>Email: Tirmizishahnawaz@gmail.com</p>
-                        </div> */}
-                        <MdContactMail className="profile__container1__icon" />
-                    </a>
+                            <p>Location: London</p>
+                        </div>
+                        }
+                        
+                        <MdContactMail className="profile__container1__icon" onClick={() => setIsOpen(!isOpen)} />
+                    </div>
                 </div>
             </div>
             <div className="profile__container2">
