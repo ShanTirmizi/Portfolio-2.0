@@ -80,11 +80,13 @@ const Projects = () => {
                     </div>
                 </div>
             </Bounce>
-            {/* <Bounce left>
+            <Bounce left>
                 <div className="projects__container">
-                    <div className='projects__container__pic'></div>    
+                    <div className='projects__container__pic'>
+                        <video src='Tesla-Mockup.mp4' autoplay="true" loop controls/>
+                    </div>    
                     <div className="projects__container__name">
-                        <h2>Projects 1</h2>
+                        <h2>Tesla Mockup</h2>
                     </div>
                     <div className="projects__container__info">
                         <p>
@@ -92,12 +94,16 @@ const Projects = () => {
                         </p>
                     </div>
                     <div className="projects__container__links">
-                        <p>Live Site</p>   
-                        <p>Source code</p>  
+                        <a href='https://shan-tesla-mockup.herokuapp.com/' target="_blank">
+                            <p>Live Site</p> 
+                        </a> 
+                        <a href='https://github.com/ShanTirmizi/Tesla-Mockup' target="_blank">
+                            <p>Source code</p>
+                        </a>
                     </div>
                 </div>
             </Bounce>
-            <Bounce bottom>
+            {/* <Bounce bottom>
                 <div className="projects__container">
                     <div className='projects__container__pic'></div>
                     <div className="projects__container__name">
