@@ -137,6 +137,12 @@
     /* padding: 0; */
     /* border-radius: 1rem; */
     color: var(--color-7);
+    transition: all .3s ease-out;
+}
+
+.profile__container1__icon:hover {
+    transform: translate(0, -5px);
+
 }
 
 .profile__container1__icon__mail {
