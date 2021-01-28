@@ -33,6 +33,19 @@ button {
 a {
   text-decoration: none;
   color: var(--color-6);
+  transition: all .3s ease-out;
+}
+
+a:hover {
+  transform: translate(0, -5px);
+}
+
+button {
+  transition: all .3s ease-out;
+}
+
+button:hover {
+  transform: translate(0, -5px);
 }
 
 ::-webkit-scrollbar {
