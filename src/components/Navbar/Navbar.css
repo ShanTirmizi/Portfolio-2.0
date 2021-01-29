@@ -8,7 +8,7 @@
     align-items: center;
   }
   
-  .menu-bars {
+  .menu__bars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
@@ -18,7 +18,7 @@
     cursor: pointer;
   }
   
-  .nav-menu {
+  .nav__menu {
     background-color: var(--color-7);
     /* filter:brightness(80%) ; */
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -34,7 +34,7 @@
 
   }
   
-  .nav-menu.active {
+  .nav__menu.active {
       display: flex;
       align-items: center;
     left: 0;
@@ -72,11 +72,11 @@
     cursor: pointer;
   }
   
-  .nav-menu-items {
+  .nav__menu__items {
     width: 100%;
   }
   
-  .navbar-toggle {
+  .navbar__toggle {
     /* background-color: #060b26; */
     width: 100%;
     height: 80px;

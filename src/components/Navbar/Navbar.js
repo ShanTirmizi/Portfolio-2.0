@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-scroll';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
 import { CgMenuMotion } from "react-icons/cg";
-import { ImCross } from "react-icons/im";
 
 
 
@@ -19,32 +16,19 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
-          {/* <Link  className='menu-bars'> */}
-            <div className="menu-bars">
+            <div className="menu__bars">
                 <CgMenuMotion onClick={showSidebar} 
                 style={sidebar ? {color: "var(--color-6)"} : {color: 'var(--color-7)'}} />
             </div>
-          {/* </Link> */}
         </div>
-        <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
-            <li className='navbar-toggle' >
-              {/* <Link to='#' className='menu-bars'> */}
-                {/* <div className="">
-                    <ImCross />
-                </div> */}
-              {/* </Link> */}
-            </li>
+        <nav className={sidebar ? 'nav__menu active' : 'nav__menu'}>
+          <ul className='nav__menu__items' onClick={showSidebar}>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
-                  {/* <Link to={item.path}> */}
                     <Link to={item.link} smooth={true} duration={1000} onClick={showSidebar}>
-                        {/* {item.icon} */}
-                        <span>{item.title}</span>
+                      <span>{item.title}</span>
                     </Link>
-                    
-                  {/* </Link> */}
                 </li>
               );
             })}
