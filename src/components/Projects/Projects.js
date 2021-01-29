@@ -70,10 +70,10 @@ const Projects = () => {
                         </p>
                     </div>
                     <div className="projects__container__links">
-                        <a href='https://shan-github-user.herokuapp.com' target="_blank">
+                        <a href='https://shan-github-search.netlify.app/' target="_blank">
                             <p>Live Site</p> 
                         </a>
-                        <a href='https://github.com/ShanTirmizi/GitHub-Search' target="_blank">
+                        <a href='https://github.com/ShanTirmizi/GitHub-User-Search' target="_blank">
                             <p>Source code</p>
                         </a>
                           
