@@ -18,7 +18,7 @@ function Navbar() {
         <div className='navbar'>
             <div className="menu__bars">
                 <CgMenuMotion onClick={showSidebar} 
-                style={sidebar ? {color: "var(--color-6)"} : {color: 'var(--color-7)'}} />
+                style={sidebar ? {color: "var(--color-11)"} : {color: 'var(--color-7)'}} />
             </div>
         </div>
         <nav className={sidebar ? 'nav__menu active' : 'nav__menu'}>
