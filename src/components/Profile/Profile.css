@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
     width: 1200px;
-    margin: 6rem 10rem 8rem 10rem;
+    margin: 4rem 10rem 2rem 10rem;
     color: var(--color-6);
     color: var(--color-11)
 }
@@ -242,4 +242,30 @@
 button:hover {
     color: var(--color-7);
     background-color: var(--color-11);
+}
+.profile__downarrowdiv {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.profile__downarrow {
+    font-size: 2rem;
+    color: var(--color-7);
+    cursor: pointer;
+    /* align-items: center; */
+    /* background-color: pink; */
+    /* -webkit-animation: bounce .5s infinite alternate;
+    -moz-animation: bounce .5s infinite alternate;
+    animation: bounce .5s infinite alternate; */
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
+
+.profile__downarrow:hover {
+    color: var(--color-11);
+    animation: none;
+    -webkit-animation: none;
+    animation: none;
 }
