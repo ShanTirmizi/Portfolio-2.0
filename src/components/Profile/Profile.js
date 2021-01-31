@@ -7,6 +7,9 @@ import { FaReact } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdContentCopy } from "react-icons/md";
 import {data} from './data';
+import { BsChevronCompactDown } from "react-icons/bs";
+import { Link } from 'react-scroll';
+
 
 
 
@@ -31,6 +34,7 @@ const Profile = () => {
         return () => clearTimeout(timeout)
     }, [alert])
     return (
+        <>
         <div className='profile' id='NavBio'>
             <div className="profile__container1">
                 <div className="profile__container1__pic">
@@ -131,6 +135,13 @@ const Profile = () => {
                 <button onClick={randomMovie}>Click for Netflix Rec</button>
             </div>
         </div>
+        <div className='profile__downarrowdiv'>
+            <Link to={'NavProjects'} smooth={true} duration={1000}>
+                <BsChevronCompactDown className='profile__downarrow' />
+            </Link>
+        </div>
+        
+        </>
     )
 }
 
