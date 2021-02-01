@@ -1,8 +1,18 @@
+.projects__heading {
+    display: flex;
+    justify-content: center;
+    /* background-color: pink; */
+    /* text-decoration: underline; */
+    /* background-color: black; */
+    color: var(--color-7);
+}
+
+
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
-    margin: 8rem 10rem;
+    margin: 2rem 10rem;
     color: var(--color-11);
 
 

@@ -48,7 +48,7 @@ const Profile = () => {
                                     navigator.clipboard.writeText('tirmizishahnawaz@gmail.com')
                                 }}>
                         <p>Email: tirmizishahnawaz@gmail.com</p>
-                        <MdContentCopy />
+                        <MdContentCopy className='profile__container1__copy' />
                     </div>
                     
                 </div>
@@ -74,7 +74,7 @@ const Profile = () => {
                                     navigator.clipboard.writeText('tirmizishahnawaz@gmail.com')
                                 }}>
                                 <p>Email: Tirmizishahnawaz@gmail.com</p>
-                                <MdContentCopy />
+                                <MdContentCopy className='profile__container1__copy' />
                             </div>
                             {
                                 alert &&

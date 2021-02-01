@@ -55,6 +55,11 @@
     margin-top: 0;
 }
 
+.profile__container1__copy:hover {
+    color: var(--color-6);
+
+}
+
 .profile__container1__email {
     display: flex;
     justify-content: center;

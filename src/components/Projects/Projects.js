@@ -5,7 +5,10 @@ import Bounce from 'react-reveal/Bounce';
 
 const Projects = () => {
     return (
-        <div className='projects' id='NavProjects'>
+        <>
+        <h1 id='NavProjects' className='projects__heading'>Projects</h1>
+
+        <div className='projects'>
             <Bounce left>
                 <div className="projects__container">
                     <div className='projects__container__pic'>
@@ -140,6 +143,7 @@ const Projects = () => {
             </Bounce> */}
 
         </div>
+        </>
     )
 }
 
