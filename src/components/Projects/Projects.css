@@ -90,3 +90,40 @@
     color: var(--color-7);
     background-color: var(--color-11);
 }
+
+@media only screen and (max-width: 1024px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        max-width: 900px;
+        /* justify-content: center; */
+        margin: 4rem 1rem 2rem 1rem;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+
+
+    }
+
+    /* .profile__container3 {
+        display: none;
+    } */
+}
+
+@media only screen and (max-width: 620px) {
+    .projects {
+        grid-template-columns: 1fr;
+        max-width: 900px;
+        /* justify-content: center; */
+        margin: 4rem 1rem 2rem 1rem;
+        grid-row-gap: 2rem;
+
+    }
+    
+.projects__container {
+    margin-bottom: 2rem;
+}
+
+    /* .projects__container3 {
+        display: none;
+    } */
+}
+
