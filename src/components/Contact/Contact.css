@@ -61,10 +61,45 @@ label {
     color: var(--color-6);
     font-size: 1rem;
     font-weight: bold;
-    width: 25%;
+    width: 15rem;
     outline: none;
     border: none;
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    input {
+        width: 120%;
+    }
+    textarea{
+        width: 120%;
+    }
+    .contact__title__button{
+        width: 75%;
+    }
+    .contact {
+        margin-right: 4rem;
+        justify-content: none;
+
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    input {
+        width: 120%;
+
+    }
+    textarea {
+        width: 120%;
+    }
+    .contact__title__button{
+        width: 75%;
+    }
+    .contact {
+        margin-right: 4rem;
+        justify-content: none;
+
+    }
 }
