@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
-    width: 1200px;
+    max-width: 1200px;
     margin: 4rem 10rem 2rem 10rem;
     color: var(--color-6);
     color: var(--color-11)
@@ -274,3 +274,36 @@ button:hover {
     -webkit-animation: none;
     animation: none;
 }
+
+@media only screen and (max-width: 1024px) {
+    .profile {
+        grid-template-columns: 1fr 1fr;
+        max-width: 900px;
+
+        /* justify-content: center; */
+        margin: 4rem 1rem 2rem 1rem;
+        grid-row-gap: 1rem;
+        /* grid-columns-gap: 2rem ; */
+        grid-column-gap: 2rem;
+
+    }
+
+    .profile__container3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .profile {
+        grid-template-columns: 1fr;
+        max-width: 900px;
+        /* justify-content: center; */
+        margin: 4rem 1rem 2rem 1rem;
+        grid-row-gap: 2rem;
+    }
+
+    .profile__container3 {
+        display: none;
+    }
+}
+

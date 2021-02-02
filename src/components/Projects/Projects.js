@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import Bounce from 'react-reveal/Bounce';
+// import Bounce from 'react-reveal/Bounce';
 
 
 const Projects = () => {
@@ -9,7 +9,7 @@ const Projects = () => {
         <h1 id='NavProjects' className='projects__heading'>Projects</h1>
 
         <div className='projects'>
-            <Bounce left>
+            {/* <Bounce left> */}
                 <div className="projects__container">
                     <div className='projects__container__pic'>
                         <video src='Covid-Tracker.mp4' autoplay="true" loop controls/>
@@ -32,8 +32,8 @@ const Projects = () => {
                         </a> 
                     </div>
                 </div>
-            </Bounce>
-            <Bounce top>
+            {/* </Bounce> */}
+            {/* <Bounce top> */}
                 <div className="projects__container">
                     <div className='projects__container__pic'>
                         <video src='Crypto-Tracker-Video.mp4' autoplay="true" loop controls />
@@ -57,8 +57,8 @@ const Projects = () => {
                          
                     </div>
                 </div>
-            </Bounce>
-            <Bounce right>
+            {/* </Bounce> */}
+            {/* <Bounce right> */}
                 <div className="projects__container">
                     <div className="projects__container__pic">
                     {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
@@ -82,8 +82,8 @@ const Projects = () => {
                           
                     </div>
                 </div>
-            </Bounce>
-            <Bounce left>
+            {/* </Bounce> */}
+            {/* <Bounce left> */}
                 <div className="projects__container">
                     <div className='projects__container__pic'>
                         <video src='Tesla-Mockup.mp4' autoplay="true" loop controls/>
@@ -105,7 +105,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-            </Bounce>
+            {/* </Bounce> */}
             {/* <Bounce bottom>
                 <div className="projects__container">
                     <div className='projects__container__pic'></div>
