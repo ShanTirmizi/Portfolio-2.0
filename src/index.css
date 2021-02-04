@@ -40,7 +40,8 @@ a {
 }
 
 a:hover {
-  transform: translate(0, -5px);
+  /* transform: translate(0, -5px); */
+  transform: scale(0.9);
 }
 
 button {
@@ -48,7 +49,9 @@ button {
 }
 
 button:hover {
-  transform: translate(0, -5px);
+  /* transform: translate(0, -5px); */
+  transform: scale(0.9);
+
 }
 
 ::-webkit-scrollbar {
