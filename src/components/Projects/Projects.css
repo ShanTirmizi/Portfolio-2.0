@@ -27,7 +27,7 @@
 }
 
 .projects__container__pic {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: var(--box-shadow-big);
     border-radius: 1rem;
     background-color: var(--color-7);
     height: 16rem;
@@ -45,7 +45,7 @@
 }
 
 .projects__container__name {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: var(--box-shadow-big);
     border-radius: 1rem;
     background-color: var(--color-7);
 }
@@ -57,7 +57,7 @@
 }
 
 .projects__container__info {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: var(--box-shadow-big);
     border-radius: 1rem;
     background-color: var(--color-7);
 }
@@ -82,7 +82,7 @@
     border-radius: 1rem;
     background-color: var(--color-7);
     color: var(--color-11);
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: var(--box-shadow-big);
 
     /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
