@@ -6,6 +6,8 @@ import { MdContactMail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdContentCopy } from "react-icons/md";
+import { SiJavascript, SiCss3, SiRails } from "react-icons/si";
+import { DiRuby } from "react-icons/di";
 import {data} from './data';
 import { BsChevronCompactDown } from "react-icons/bs";
 import { Link } from 'react-scroll';
@@ -104,24 +106,24 @@ const Profile = () => {
                             <FaReact  />
                         </div>
                         <div>
-                            <p>React</p>
-                            <FaReact />
+                            <p>Javascript</p>
+                            <SiJavascript />
                         </div>
                         <div>
-                            <p>React</p>
-                            <FaReact />
+                            <p>CSS</p>
+                            <SiCss3 />
                         </div>
                         <div>
-                            <p>React</p>
-                            <FaReact />
+                            <p>Ruby</p>
+                            <DiRuby />
                         </div>
                         <div>
-                            <p>React</p>
-                            <FaReact />
+                            <p>Rails</p>
+                            <SiRails />
                         </div>
                         <div>
-                            <p>React</p>
-                            <FaReact />
+                            <p>GitHub</p>
+                            <FaGithub />
                         </div>
                     </div>
                 </div>
