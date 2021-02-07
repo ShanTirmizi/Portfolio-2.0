@@ -8,17 +8,16 @@ import Project from './Project/Project'
 const Projects = () => {
     return (
         <>
-        <h1 id='NavProjects' className='projects__heading'>Projects</h1>
+            <h1 id='NavProjects' className='projects__heading'>Projects</h1>
+            <div className='projects'>
+                {
+                    ProjectData.map((data, index) => {
+                        const { title, video, Site, GitHub, description } = data
+                        return  <Project key={index} title={title} video={video} Site={Site} GitHub={GitHub} description={description} />
 
-        <div className='projects'>
-            {
-                ProjectData.map((data, index) => {
-                    const { title, video, Site, GitHub, description } = data
-                    return  <Project key={index} title={title} video={video} Site={Site} GitHub={GitHub} description={description} />
-
-                })
-            }
-        </div>
+                    })
+                }
+            </div>
         </>
     )
 }

@@ -4,6 +4,7 @@ import Architect from '../../assets/Architect-Portfolio.webm'
 import GitHubUser from '../../assets/Github-User-Search.mp4'
 import Crypto from '../../assets/Crypto-Tracker-Video.mp4'
 import Tesla from '../../assets/Tesla-Mockup.mp4'
+import Smart from '../../assets/Smart-home.webm'
 
 export const ProjectData = [
     {
@@ -18,7 +19,7 @@ export const ProjectData = [
         video: Architect,
         Site: 'https://shan-architect-portfolio.netlify.app/',
         GitHub: 'https://github.com/ShanTirmizi/Architect-Portfolio',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        description: 'An Architect Portfolio build with React. This portfolio contains parallax which gives it a 3d effect. This coupled with a smooth scroll effect gives it a modern look. The project section contains flip card.'
     },
     {
         title: 'GitHub User Search',
@@ -33,6 +34,14 @@ export const ProjectData = [
         Site: 'https://shan-crypto-tracker.herokuapp.com/',
         GitHub: 'https://github.com/ShanTirmizi/Crypto-Price-Tracker',
         description: 'A colorful Crypto Tracker build with React it shows the top 100 crypto currency displayed in a lost form. The Coin page containing further information about the currency.'
+    },
+    {
+        title: 'Smart Home Management',
+        video: Smart,
+        Site: 'http://www.smart-home-ems.com/',
+        GitHub: 'https://github.com/andreeaionescu97/rails-smart-home-ems',
+        description: ' Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
     },
     {
         title: 'Tesla Mockup',
