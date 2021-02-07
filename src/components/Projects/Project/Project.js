@@ -5,7 +5,7 @@ const Project = ({video, title, description, Site, GitHub}) => {
     return (
         <div className="projects__container">
             <div className='projects__container__pic'>
-                <video src={video} autoplay="true" loop controls/>
+                <video src={video} autoplay="true" loop controls muted/>
             </div>
                 {/* <img className="projects__container__pic" src='https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png' /> */}
             <div className="projects__container__name">
