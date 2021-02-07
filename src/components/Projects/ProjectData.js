@@ -5,6 +5,7 @@ import GitHubUser from '../../assets/Github-User-Search.mp4'
 import Crypto from '../../assets/Crypto-Tracker-Video.mp4'
 import Tesla from '../../assets/Tesla-Mockup.mp4'
 import Smart from '../../assets/Smart-home.webm'
+import Book from '../../assets/book-exchange.webm'
 
 export const ProjectData = [
     {
@@ -40,7 +41,15 @@ export const ProjectData = [
         video: Smart,
         Site: 'http://www.smart-home-ems.com/',
         GitHub: 'https://github.com/andreeaionescu97/rails-smart-home-ems',
-        description: ' Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        description: 'A Smart Home Energy Management system build with Ruby on Rails. This web app tracks the enegy usage from different devices and plots the data on stylish charts build using am charts. The user can also added different homes'
+
+    },
+    {
+        title: 'Book Exchange',
+        video: Book,
+        Site: 'https://airbnb-andreeaionescu97.herokuapp.com/',
+        GitHub: 'https://github.com/andreeaionescu97/rails-textbook-exchange',
+        description: 'An ebay like book exchange build with Ruby on Rails where users can lend their used books and other users on the website can rent them for a specified period of time. The users can also rate the book and accept or decline a rent request.'
 
     },
     {
