@@ -17,7 +17,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
             <div className="menu__bars">
-                <CgMenuMotion onClick={showSidebar} 
+                <CgMenuMotion className="menu__bars__icon" onClick={showSidebar} 
                 style={sidebar ? {color: "var(--color-11)"} : {color: 'var(--color-7)'}} />
             </div>
         </div>
