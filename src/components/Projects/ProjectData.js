@@ -11,7 +11,7 @@ export const ProjectData = [
         video: Covid,
         Site: 'https://shan-covid-19-tracker.herokuapp.com/',
         GitHub: 'https://github.com/ShanTirmizi/Covid-19-Tracker',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        description: 'A Covid Tracker Build with React. The app shows the amount of cases, recovered & deaths on a map created with Leaflet js. Below that are list of countries shown in a table view from highest infections to lowest accompanied by three charts.'
     },
     {
         title: 'Architect Portfolio',
@@ -25,21 +25,21 @@ export const ProjectData = [
         video: GitHubUser,
         Site: 'https://shan-github-search.netlify.app/',
         GitHub: 'https://github.com/ShanTirmizi/GitHub-User-Search',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        description: 'A GitHub Search app build With React. The app allows you to search GitHub users and gives you their personal information fetched from the GitHub api accompanied by four charts. '
     },
     {
         title: 'Crypto Tracker',
         video: Crypto,
         Site: 'https://shan-crypto-tracker.herokuapp.com/',
         GitHub: 'https://github.com/ShanTirmizi/Crypto-Price-Tracker',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        description: 'A colorful Crypto Tracker build with React it shows the top 100 crypto currency displayed in a lost form. The Coin page containing further information about the currency.'
     },
     {
         title: 'Tesla Mockup',
         video: Tesla,
         Site: 'https://shan-tesla-mockup.herokuapp.com/',
         GitHub: 'https://github.com/ShanTirmizi/Tesla-Mockup',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        description: 'A simple Tesla Mock-up build with React. This is design to look likes Tesla.com from the navbar to the each individual page is design to look like Tesla.com'
     }
 
 ]

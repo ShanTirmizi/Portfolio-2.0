@@ -20,7 +20,7 @@
 
 .projects__container {
     display: grid;
-    grid-template-rows: 3fr 0.8fr 2fr 1fr;
+    grid-template-rows: 3fr fr 2fr 1fr;
     grid-gap: 2rem;
     border-radius: 1rem;
     margin-bottom: 5rem;
