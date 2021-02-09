@@ -14,21 +14,21 @@ export const ProjectData = [
         video: Covid,
         Site: 'https://shan-covid-19-tracker.herokuapp.com/',
         GitHub: 'https://github.com/ShanTirmizi/Covid-19-Tracker',
-        description: 'A Covid Tracker Build with React. The app shows the amount of cases, recovered & deaths on a map created with Leaflet js. Below that are list of countries shown in a table view from highest infections to lowest accompanied by three charts.'
+        description: 'A Covid Tracker Built using React. The app shows the amount of cases, recovered & deaths on a map created using Leaflet js. Below that are list of countries shown in a table view from highest infections to lowest accompanied by three charts.'
     },
     {
         title: 'E-commerce',
         video: Ecom,
         Site: 'https://shan-ecommerce.netlify.app/',
         GitHub: 'https://github.com/ShanTirmizi/Fullstack-Ecommerce',
-        description: 'A Mobile first E-commerce website built using React. This app contains search functionality, the ability to sort the item by category and price. The user can login using Auth0 and checkout out with stripe.'
+        description: 'A Mobile first E-commerce website built using React. This app contains search functionality, the ability to sort items by category and price. The user can login using Auth0 and checkout out with stripe.'
     },
     {
         title: 'Architect Portfolio',
         video: Architect,
         Site: 'https://shan-architect-portfolio.netlify.app/',
         GitHub: 'https://github.com/ShanTirmizi/Architect-Portfolio',
-        description: 'An Architect Portfolio built using React. This portfolio contains parallax which gives it a 3d effect. This coupled with a smooth scroll effect gives it a modern look. The project section contains flip card.'
+        description: 'An Architect Portfolio built using React. This portfolio contains parallax which gives it a 3d effect. This coupled with a smooth scroll effect gives it a modern look. The project section contains flip cards.'
     },
     {
         title: 'GitHub User Search',
@@ -42,14 +42,14 @@ export const ProjectData = [
         video: Crypto,
         Site: 'https://shan-crypto-tracker.herokuapp.com/',
         GitHub: 'https://github.com/ShanTirmizi/Crypto-Price-Tracker',
-        description: 'A colorful Crypto Tracker built using React it shows the top 100 crypto currency displayed in a lost form. The Coin page containing further information about the currency.'
+        description: 'A colorful Crypto Tracker built using React it shows the top 100 crypto currencies displayed in a list form. The Coin page containing further information about the currency.'
     },
     {
         title: 'Smart Home Management',
         video: Smart,
         Site: 'http://www.smart-home-ems.com/',
         GitHub: 'https://github.com/andreeaionescu97/rails-smart-home-ems',
-        description: 'A Smart Home Energy Management system built using Ruby on Rails. This web app tracks the enegy usage from different devices and plots the data on stylish charts build using am charts. The user can also added different homes'
+        description: 'A Smart Home Energy Management system built using Ruby on Rails. This web app tracks the energy usage from different devices and plots the data on stylish charts build using am charts. The user can also added different homes'
 
     },
     {
@@ -65,7 +65,7 @@ export const ProjectData = [
         video: Tesla,
         Site: 'https://shan-tesla-mockup.herokuapp.com/',
         GitHub: 'https://github.com/ShanTirmizi/Tesla-Mockup',
-        description: 'A simple Tesla Mock-up built using React. This is design to look likes Tesla.com from the navbar to the each individual page is design to look like Tesla.com'
+        description: 'A simple Tesla Mock-up built using React. This is designed to look like the homepage of Tesla.com.'
     }
 
 ]
