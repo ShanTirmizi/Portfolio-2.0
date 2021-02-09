@@ -33,6 +33,11 @@ button:focus {
   --color-9: #162447;
   --color-10: #056674;
   --color-11: #EBEBEB;
+  --bg-color-1: #30b78d;
+  --bg-color-2: #ea5e6b;
+  --bg-color-3: #f2b51e;
+  --bg-color-4: #181818;
+  --bg-color-5: #EBEBEB;
   /* --box-shadow-big: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
   --box-shadow-big: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   --box-shadow-small: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
