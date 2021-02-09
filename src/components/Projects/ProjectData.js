@@ -12,7 +12,7 @@ export const ProjectData = [
     {
         title: 'Covid Tracker',
         video: Covid,
-        Site: 'https://shan-covid-19-tracker.herokuapp.com/',
+        Site: 'https://shan-covid-tracker.netlify.app/',
         GitHub: 'https://github.com/ShanTirmizi/Covid-19-Tracker',
         description: 'A Covid Tracker Built using React. The app shows the amount of cases, recovered & deaths on a map created using Leaflet js. Below that are list of countries shown in a table view from highest infections to lowest accompanied by three charts.'
     },
@@ -24,13 +24,6 @@ export const ProjectData = [
         description: 'A Mobile first E-commerce website built using React. This app contains search functionality, the ability to sort items by category and price. The user can login using Auth0 and checkout out with stripe.'
     },
     {
-        title: 'Architect Portfolio',
-        video: Architect,
-        Site: 'https://shan-architect-portfolio.netlify.app/',
-        GitHub: 'https://github.com/ShanTirmizi/Architect-Portfolio',
-        description: 'An Architect Portfolio built using React. This portfolio contains parallax which gives it a 3d effect. This coupled with a smooth scroll effect gives it a modern look. The project section contains flip cards.'
-    },
-    {
         title: 'GitHub User Search',
         video: GitHubUser,
         Site: 'https://shan-github-search.netlify.app/',
@@ -40,7 +33,7 @@ export const ProjectData = [
     {
         title: 'Crypto Tracker',
         video: Crypto,
-        Site: 'https://shan-crypto-tracker.herokuapp.com/',
+        Site: 'https://shan-crypto-tracker.netlify.app/',
         GitHub: 'https://github.com/ShanTirmizi/Crypto-Price-Tracker',
         description: 'A colorful Crypto Tracker built using React it shows the top 100 crypto currencies displayed in a list form. The Coin page containing further information about the currency.'
     },
@@ -59,6 +52,13 @@ export const ProjectData = [
         GitHub: 'https://github.com/andreeaionescu97/rails-textbook-exchange',
         description: 'An ebay like book exchange built using Ruby on Rails where users can lend their used books and other users on the website can rent them for a specified period of time. The users can also rate the book and accept or decline a rent request.'
 
+    },
+    {
+        title: 'Architect Portfolio',
+        video: Architect,
+        Site: 'https://shan-architect-portfolio.netlify.app/',
+        GitHub: 'https://github.com/ShanTirmizi/Architect-Portfolio',
+        description: 'An Architect Portfolio built using React. This portfolio contains parallax which gives it a 3d effect. This coupled with a smooth scroll effect gives it a modern look. The project section contains flip cards.'
     },
     {
         title: 'Tesla Mockup',
