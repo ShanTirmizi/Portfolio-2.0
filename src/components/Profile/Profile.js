@@ -8,9 +8,11 @@ import { AiOutlineClose } from "react-icons/ai";
 import { MdContentCopy } from "react-icons/md";
 import { SiJavascript, SiCss3, SiRails } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
+import { IoMdDownload } from "react-icons/io";
 import {data} from './data';
 import { BsChevronCompactDown } from "react-icons/bs";
 import { Link } from 'react-scroll';
+import myPDF from '../../assets/Shan CV.pdf'
 
 
 
@@ -37,6 +39,7 @@ const Profile = () => {
     }, [alert])
     return (
         <>
+        <div className='fullpage'>
         <div className='profile' id='NavBio'>
             <div className="profile__container1">
                 <div className="profile__container1__pic">
@@ -51,8 +54,7 @@ const Profile = () => {
                                 }}>
                         <p>Email: tirmizishahnawaz@gmail.com</p>
                         <MdContentCopy className='profile__container1__copy' />
-                    </div>
-                    
+                    </div>                    
                 </div>
                 <div className="profile__container1__link">
                     <a href="https://github.com/ShanTirmizi" target="_blank">
@@ -93,10 +95,15 @@ const Profile = () => {
             <div className="profile__container2">
                 <div className="profile__container2__bio">
                     <h3>Bio</h3>
-                    <p>
-                    Ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                    </p>
+                    <p>Extremely motivated London based React developer who is passionate about developing and maintaining elegant yet user-friendly Web apps. </p>
+                    <div>
+                        <a href={myPDF} rel="noopener noreferrer" target="_blank" className='profile__container1__downlink'>
+                            <button className="profile__container1__cv">
+                                <p>CV</p>
+                                <IoMdDownload className='profile__container1__down' />
+                            </button>
+                        </a>
+                    </div>
                 </div>
                 <div className="profile__container2__skills">
                     <h3>Skills</h3>
@@ -128,14 +135,15 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
-            <div className="profile__container3">
+            </div>
+            {/* <div className="profile__container3">
                 <img src={movie.image || 'images/netlfix.jpg'} alt='Movie Poster' className='profile__container3__pic' />
                 <div className="profile__container3__info">
                     <h3>{movie.name || 'Need something to watch?'}</h3>
                     <p>{movie.rating} IMDB</p>
                 </div>
                 <button onClick={randomMovie}>Click for Netflix Rec</button>
-            </div>
+            </div> */}
         </div>
         <div className='profile__downarrowdiv'>
             <Link to={'NavProjects'} smooth={true} duration={1000}>
