@@ -18,8 +18,13 @@
   }
 
   .menu__bars__icon {
-    color: var(--color-8) !important;
+    /* color: var(--color-8) !important; */
     transition: all 0.2s ease-in;
+    box-shadow: var(--box-shadow-big);
+    background-color: var(--color-6);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    /* background-color: pink; */
   }
 
   .menu__bars__icon:hover {
