@@ -3,10 +3,10 @@ import './Profile.css';
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { MdContactMail } from "react-icons/md";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdContentCopy } from "react-icons/md";
-import { SiJavascript, SiCss3, SiRails } from "react-icons/si";
+import { SiJavascript, SiCss3, SiRails, SiFirebase } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
 import { IoMdDownload } from "react-icons/io";
 import {data} from './data';
@@ -131,6 +131,14 @@ const Profile = () => {
                         <div>
                             <p>GitHub</p>
                             <FaGithub />
+                        </div>
+                        <div>
+                            <p>Firebase</p>
+                            <SiFirebase />
+                        </div>
+                        <div>
+                            <p>Node js</p>
+                            <FaNodeJs />
                         </div>
                     </div>
                 </div>
