@@ -54,7 +54,7 @@ export const ProjectData = [
         description: 'A colourful Crypto Tracker built using React. It shows the top 100 cryptocurrencies displayed in a list form on the home page and the Coin page containing further information about each currency. The data is fetched from the Coingecko API.'
     },
     {
-        title: 'Smart Home Management',
+        title: 'Energy Management',
         video: Smart,
         Site: 'http://www.smart-home-ems.com/',
         GitHub: 'https://github.com/andreeaionescu97/rails-smart-home-ems',
