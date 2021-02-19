@@ -48,6 +48,7 @@
     box-shadow: var(--box-shadow-big);
     border-radius: 1rem;
     background-color: var(--color-7);
+    margin: auto 0;
 }
 
 .projects__container__name h2 {
