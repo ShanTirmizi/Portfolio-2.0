@@ -32,6 +32,14 @@ export const ProjectData = [
         description: 'A Mobile-first E-commerce website created using React. This app contains search functionality, the ability to sort items by category and price. The user can log in using Auth0 and checkout out with stripe.'
     },
     {
+        title: 'Book Exchange',
+        video: Book,
+        Site: 'https://airbnb-andreeaionescu97.herokuapp.com/',
+        GitHub: 'https://github.com/andreeaionescu97/rails-textbook-exchange',
+        description: "An eBay like book exchange created using Ruby on Rails where users can lend their used books and other users on the website can rent them for a specified period. The users can also rate the book and accept or decline a rent request. This apps also has user authentication built-in."
+
+    },
+    {
         title: 'GitHub User Search',
         video: GitHubUser,
         Site: 'https://shan-github-search.netlify.app/',
@@ -51,14 +59,6 @@ export const ProjectData = [
         Site: 'http://www.smart-home-ems.com/',
         GitHub: 'https://github.com/andreeaionescu97/rails-smart-home-ems',
         description: "A Smart Home Energy Management system created using Ruby on Rails. This web app tracks the energy usage of different devices and then plots the data on stylish charts build using AM charts. The user can also add multiple homes. This apps also has user authentication built-in."
-
-    },
-    {
-        title: 'Book Exchange',
-        video: Book,
-        Site: 'https://airbnb-andreeaionescu97.herokuapp.com/',
-        GitHub: 'https://github.com/andreeaionescu97/rails-textbook-exchange',
-        description: "An eBay like book exchange created using Ruby on Rails where users can lend their used books and other users on the website can rent them for a specified period. The users can also rate the book and accept or decline a rent request. This apps also has user authentication built-in."
 
     },
     {
