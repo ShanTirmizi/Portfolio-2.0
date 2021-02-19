@@ -12,7 +12,7 @@ import { IoMdDownload } from "react-icons/io";
 import {data} from './data';
 import { BsChevronCompactDown } from "react-icons/bs";
 import { Link } from 'react-scroll';
-import myPDF from '../../assets/Shan-CV-2.pdf'
+import myPDF from '../../assets/Shan CV (3).pdf'
 
 
 
