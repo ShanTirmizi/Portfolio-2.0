@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import { MdContactMail } from "react-icons/md";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiFillApi } from "react-icons/ai";
 import { MdContentCopy } from "react-icons/md";
 import { SiJavascript, SiCss3, SiRails, SiFirebase } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
@@ -95,7 +95,10 @@ const Profile = () => {
             <div className="profile__container2">
                 <div className="profile__container2__bio">
                     <h3>Bio</h3>
-                    <p>Extremely motivated London based React developer who is passionate about developing and maintaining elegant yet user-friendly Web apps. </p>
+                    <p>Extremely motivated London based Full-stack React developer who is passionate
+                       about developing and maintaining elegant
+                       yet user-friendly Web apps.
+                    </p>
                     <div>
                         <a href={myPDF} rel="noopener noreferrer" target="_blank" className='profile__container1__downlink'>
                             <button className="profile__container1__cv">
@@ -121,6 +124,10 @@ const Profile = () => {
                             <SiCss3 />
                         </div>
                         <div>
+                            <p>API</p>
+                            <AiFillApi />
+                        </div>
+                        <div>
                             <p>Ruby</p>
                             <DiRuby />
                         </div>
@@ -131,10 +138,6 @@ const Profile = () => {
                         <div>
                             <p>GitHub</p>
                             <FaGithub />
-                        </div>
-                        <div>
-                            <p>Firebase</p>
-                            <SiFirebase />
                         </div>
                         <div>
                             <p>Node js</p>
