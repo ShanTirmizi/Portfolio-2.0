@@ -95,9 +95,9 @@ const Profile = () => {
             <div className="profile__container2">
                 <div className="profile__container2__bio">
                     <h3>Bio</h3>
-                    <p>Extremely motivated London based Full-stack React developer who is passionate
-                       about developing and maintaining elegant
-                       yet user-friendly Web apps.
+                    <p>Extremely motivated London based Fullstack React developer who is passionate
+                       about developing elegant and user-friendly
+                       web apps.
                     </p>
                     <div>
                         <a href={myPDF} rel="noopener noreferrer" target="_blank" className='profile__container1__downlink'>

@@ -11,13 +11,6 @@ import Insta from '../../assets/Instagram.webm'
 
 export const ProjectData = [
     {
-        title: 'Instagram Clone',
-        video: Insta,
-        Site: 'https://shan-instagram.netlify.app/',
-        GitHub: 'https://github.com/ShanTirmizi/Social-Media',
-        description: "An Instagram clone created using React & Firebase. This apps lets users to login using firebase authentication. The users can post their pictures with a title on the app. Users can also view posts from other users. Moreover, users can comment on these posts as well."
-    },
-    {
         title: 'Covid Tracker',
         video: Covid,
         Site: 'https://shan-covid-tracker.netlify.app/',
@@ -40,18 +33,18 @@ export const ProjectData = [
 
     },
     {
+        title: 'Instagram Clone',
+        video: Insta,
+        Site: 'https://shan-instagram.netlify.app/',
+        GitHub: 'https://github.com/ShanTirmizi/Social-Media',
+        description: "An Instagram clone created using React & Firebase. This apps lets users to login using firebase authentication. The users can post their pictures with a title on the app. Users can also view posts from other users. Moreover, users can comment on these posts as well."
+    },
+    {
         title: 'GitHub User Search',
         video: GitHubUser,
         Site: 'https://shan-github-search.netlify.app/',
         GitHub: 'https://github.com/ShanTirmizi/GitHub-User-Search',
         description: "A GitHub Search app created using React. Users can search for GitHub users and it will fetch the data from GitHub's API and display their info accompanied by four charts created using Fusion Charts."
-    },
-    {
-        title: 'Crypto Tracker',
-        video: Crypto,
-        Site: 'https://shan-crypto-tracker.netlify.app/',
-        GitHub: 'https://github.com/ShanTirmizi/Crypto-Price-Tracker',
-        description: "A colourful Crypto Tracker built using React. It shows the top 100 cryptocurrencies displayed in a list form on the home page and the Coin page containing further information about each currency. The data is fetched from Coingecko's API."
     },
     {
         title: 'Energy Management',
@@ -60,6 +53,13 @@ export const ProjectData = [
         GitHub: 'https://github.com/andreeaionescu97/rails-smart-home-ems',
         description: "A Smart Home Energy Management system created using Ruby on Rails. This web app tracks the energy usage of different devices and then plots the data on stylish charts build using AM charts. The user can also add multiple homes. This apps also has user authentication built-in."
 
+    },
+    {
+        title: 'Crypto Tracker',
+        video: Crypto,
+        Site: 'https://shan-crypto-tracker.netlify.app/',
+        GitHub: 'https://github.com/ShanTirmizi/Crypto-Price-Tracker',
+        description: "A colourful Crypto Tracker built using React. It shows the top 100 cryptocurrencies displayed in a list form on the home page and the Coin page containing further information about each currency. The data is fetched from Coingecko's API."
     },
     {
         title: 'Architect Portfolio',
