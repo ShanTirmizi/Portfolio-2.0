@@ -1,13 +1,13 @@
 import React from 'react'
 import Covid from '../../assets/Covid-Tracker.mp4'
-import Architect from '../../assets/Architect-Portfolio.webm'
+import Architect from '../../assets/Architect-Portfolio.mp4'
 import GitHubUser from '../../assets/Github-User-Search.mp4'
 import Crypto from '../../assets/Crypto-Tracker-Video.mp4'
 import Tesla from '../../assets/Tesla-Mockup.mp4'
-import Smart from '../../assets/Smart-home.webm'
-import Book from '../../assets/book-exchange.webm'
+import Smart from '../../assets/Smart-home.mp4'
+import Book from '../../assets/book-exchange.mp4'
 import Ecom from '../../assets/ecommerce.mp4'
-import Insta from '../../assets/Instagram.webm'
+import Insta from '../../assets/Instagram.mp4'
 
 export const ProjectData = [
     {
