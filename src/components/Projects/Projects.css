@@ -24,6 +24,7 @@
     grid-gap: 2rem;
     border-radius: 1rem;
     margin-bottom: 5rem;
+    max-width: 375px;
 }
 
 .projects__container__pic {
