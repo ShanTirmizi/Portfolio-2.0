@@ -39,7 +39,7 @@ const Profile = () => {
         <div className="profile" id="NavBio">
           <div className="profile__container1">
             <div className="profile__container1__pic">
-              <img style={{objectFit: "cover", width: "50%", height: "60%"}} src="images/Profile.jpeg" alt="Profile Pic"/>
+              <img style={{objectFit: "cover", width: "50%", height: "60%", borderRadius: "2rem"}} src="images/Profile.jpeg" alt="Profile Pic"/>
             </div>
             <div className="profile__container1__name">
               <h2>Shan Tirmizi</h2>
