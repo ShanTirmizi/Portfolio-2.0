@@ -6,7 +6,7 @@ import { MdContactMail } from 'react-icons/md';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { AiOutlineClose, AiFillApi } from 'react-icons/ai';
 import { MdContentCopy } from 'react-icons/md';
-import { SiJavascript, SiCss3, SiRails, SiFirebase } from 'react-icons/si';
+import { SiJavascript, SiCss3, SiRubyonrails, SiFirebase, SiNextdotjs, SiMysql, SiTypescript } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
 import { IoMdDownload } from 'react-icons/io';
 import { data } from './data';
@@ -126,23 +126,23 @@ const Profile = () => {
               </div>
             </div>
             <div className="profile__container2__skills">
-              <h3>Skills</h3>
+              <h3>Main Skills</h3>
               <div className="profile__container2__skills__icons">
                 <div>
                   <p>React</p>
                   <FaReact />
                 </div>
                 <div>
+                  <p>Next js</p>
+                  <SiNextdotjs />
+                </div>
+                <div>
                   <p>Javascript</p>
                   <SiJavascript />
                 </div>
                 <div>
-                  <p>CSS</p>
-                  <SiCss3 />
-                </div>
-                <div>
-                  <p>API</p>
-                  <AiFillApi />
+                  <p>Typescript</p>
+                  <SiTypescript />
                 </div>
                 <div>
                   <p>Ruby</p>
@@ -150,11 +150,11 @@ const Profile = () => {
                 </div>
                 <div>
                   <p>Rails</p>
-                  <SiRails />
+                  <SiRubyonrails />
                 </div>
                 <div>
-                  <p>GitHub</p>
-                  <FaGithub />
+                  <p>MySQL</p>
+                  <SiMysql />
                 </div>
                 <div>
                   <p>Node js</p>
