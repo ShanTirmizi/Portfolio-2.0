@@ -62,6 +62,7 @@
     box-shadow: var(--box-shadow-big);
     border-radius: 1rem;
     background-color: var(--color-7);
+    height: 220px;
 }
 
 .projects__container__info {

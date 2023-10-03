@@ -10,7 +10,7 @@ const Projects = () => {
         <>
             <h1 id='NavProjects' className='projects__heading'>Projects</h1>
             <div className='fullpage'>
-                <div className='projects'>
+                <div className='d-flex flex-wrap justify-content-evenly'>
                     {
                         ProjectData.map((data, index) => {
                             const { title, video, Site, GitHub, description } = data

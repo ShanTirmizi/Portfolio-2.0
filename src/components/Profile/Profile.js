@@ -116,7 +116,7 @@ const Profile = () => {
                   href={myPDF}
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="profile__container1__downlink"
+                  className="profile__container1__downlink text-decoration-none"
                 >
                   <button className="profile__container1__cv">
                     <p>CV</p>
