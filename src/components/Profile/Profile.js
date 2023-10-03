@@ -24,7 +24,6 @@ const Profile = () => {
   const randomMovie = () => {
     let item = data[Math.floor(Math.random() * data.length)];
     setMovie(item);
-    // console.log(item);
   };
 
   useEffect(() => {
@@ -55,12 +54,16 @@ const Profile = () => {
               </div>
             </div>
             <div className="profile__container1__link">
-              <a href="https://github.com/ShanTirmizi" target="_blank">
+              <a href="https://github.com/ShanTirmizi"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub className="profile__container1__icon" />
               </a>
               <a
                 href="https://www.linkedin.com/in/shan-tirmizi-7b3114159/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <GrLinkedin className="profile__container1__icon" />
               </a>
