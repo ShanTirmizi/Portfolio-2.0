@@ -113,10 +113,10 @@ const Profile = () => {
               </p>
               <div>
                 <a
-                  href={myPDF}
+                  href="https://drive.google.com/file/d/1sVkvSgdcM8FcaOp5PzqukmWkNJcFIB94/view?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="profile__container1__downlink"
+                  className="profile__container1__downlink text-decoration-none"
                 >
                   <button className="profile__container1__cv">
                     <p>CV</p>
